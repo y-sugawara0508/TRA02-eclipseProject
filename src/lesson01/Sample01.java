@@ -1,15 +1,19 @@
 package lesson01;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Sample01 {
 	public static void main(String[] args) {
 		
-		// 標準出力
-		System.out.println("Hello world!!");
+		// キャラクターを生成
+		List<Character> characters = new ArrayList<Character>();
+		characters.add(new Character("勇者",100,50,255));
+		characters.add(new Character("戦士",255,50,10));
+		characters.add(new Character("魔法使い",50,255,100));
 		
-		// 入力処理
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		// キャラクター情報を表示
+		for(Character character : characters) character.show();
+		
 	}
 }
