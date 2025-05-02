@@ -101,7 +101,6 @@ public class PokerGame {
 			
 			// 山札の一番上から取り出す
 			for(int i=0;i<5;i++) player.addHandCards(stockCards.remove(0));
-
 		}
 	}
 	
