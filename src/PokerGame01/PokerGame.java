@@ -1,4 +1,4 @@
-package lesson01;
+package PokerGame01;
 
 import java.io.BufferedReader;
 import java.io.IOException;

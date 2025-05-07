@@ -1,4 +1,4 @@
-package re_pokerGame;
+package PokerGame03_env;
 
 import java.io.BufferedReader;
 import java.io.IOException;
