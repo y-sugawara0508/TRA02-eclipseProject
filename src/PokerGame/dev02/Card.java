@@ -1,4 +1,4 @@
-package PokerGame02;
+package PokerGame.dev02;
 
 enum Suit{
 	SPADE("♠"), HEART("♥"), DIAMOND("♦"), CLUB("♣");

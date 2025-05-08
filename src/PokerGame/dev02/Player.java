@@ -1,4 +1,4 @@
-package PokerGame02;
+package PokerGame.dev02;
 
 import java.util.ArrayList;
 import java.util.Collections;
